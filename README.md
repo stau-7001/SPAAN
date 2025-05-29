@@ -32,11 +32,6 @@ The SARS-CoV-2 IC50 data is in the `data` folder.
 
 ## Model inference 
 Download the checkpoint of SPAAN and modify the paths in the code.
-| Content  | Link   |
-| ----- | ----- |
-| Checkpoint on SARS-CoV-2 | [link](https://figshare.com/ndownloader/files/44970310) |
-| Checkpoint on HIV cls | [link](https://figshare.com/ndownloader/files/45053224) |
-| Checkpoint on HIV reg | [link](https://figshare.com/ndownloader/files/45104590) |
 
 To test SPAAN on SARS-CoV-2 IC50 test data, please run
 ```
