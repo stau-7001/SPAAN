@@ -42,17 +42,6 @@ To test SPAAN on SARS-CoV-2 IC50 test data, please run
 ```
 python main.py --config=configs/test_on_sarscov2.yml
 ```
-
-To test SPAAN on HIV test data for classification, please run
-```
-python main.py --config=configs/test_on_HIV_cls.yml
-```
-
-To test SPAAN on HIV test data for regression, please run
-```
-python main.py --config=configs/test_on_HIV_reg.yml
-```
-
 ## Model training
 To train SPAAN on downstream tasks from scratch, please run
 ```
