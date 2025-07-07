@@ -1,4 +1,5 @@
 experiment_name: 'HIV_cls_test'
+fold: 4
 num_epochs: 200
 batch_size: 1
 log_iterations: 64
@@ -42,4 +43,4 @@ model_parameters:
 
 pretrain_checkpoint_str: './ckps'
 # continue training from checkpoint:
-checkpoint: ./runs/Cls_SPAAN_Chem_HIVcls_HIV_cls_fold0_123_29-03_15-31-12/best_checkpoint.pt
+checkpoint: path_to_checkpoint
