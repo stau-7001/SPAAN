@@ -31,8 +31,8 @@ The SARS-CoV-2 IC50 data is in the `data` folder.
 * `data/Ag_sequence.csv` is the Ag sequence data.
 
 ## Model inference 
-Download the checkpoint of SPAAN and modify the paths in the code.
-[link](https://drive.google.com/drive/folders/1vL_T8DlxoiGDNXSGFOBJic8RQrLEQVln?usp=sharing) 
+Download the [checkpoint of SPAAN](https://drive.google.com/drive/folders/1vL_T8DlxoiGDNXSGFOBJic8RQrLEQVln?usp=sharing)  and modify the paths in the code.
+
 
 To test SPAAN on SARS-CoV-2 IC50 test data, please run
 ```
