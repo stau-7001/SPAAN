@@ -43,7 +43,6 @@ To train SPAAN on downstream tasks from scratch, please run
 ```
 python main.py --config=configs/train_on_sarscov2.yml
 python main.py --config=configs/train_on_HIV_cls.yml
-python main.py --config=configs/train_on_HIV_reg.yml
 ```
 
 ## Attribution evaluation
