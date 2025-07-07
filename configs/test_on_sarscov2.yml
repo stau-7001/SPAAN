@@ -40,7 +40,7 @@ lr_scheduler_params:
   verbose: True
 eval_on_test: True
 # Model parameters
-model_type: 'MultiTask_SPAAN_Chem'
+model_type: 'MultiTask_S3AI_Chem_pre'
 model_parameters:
   esm_hidden_dim: 640
   max_Ab_len: 250
@@ -48,4 +48,4 @@ model_parameters:
   virus_name: 'SARSCOV2'
 
 pretrain_checkpoint_str: './ckps'
-checkpoint: /userhome/lyt/SPAAN/runs/MultiTask_SPAAN_Chem_IC50_Sarscov2_SPAAN_rerun_fix_data_123_28-11_04-24-38/best_checkpoint.pt
+checkpoint: path_to_checkpoint
